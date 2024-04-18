@@ -1,4 +1,5 @@
 # Store IMGT CDR Loops
+Python version = 3.9.5
 
 ## Purpose and Use
 This program takes CDR loop FASTA data from the IMGT database, sorts and stores the CDR loop information for variable genes (e.g. alpha and beta). For the latest data go to the IMGT database (https://www.imgt.org/genedb/) and enter the following in the ```Identification``` panel: ```Species```: Homo sapiens, ```Gene type```: Variable, ```Functionality```: Functional, ```Molecular componenet```: TR. Next, under ```Localization``` in ```Locus```, select the gene family of interest. In the example shown here, TRA and TRB are used. Lastly, press the ```Submit``` botton. 
